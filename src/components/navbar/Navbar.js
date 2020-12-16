@@ -1,19 +1,37 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
+import './Navbar.css'
+import { Button } from '../button/Button'
 
 function Navbar() {
 
-    // reversing state, hamburger vs close option
     const [click, setClick] = useState(false);
+    const[button, setButton] = useState(true);
+
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+
+    const showButton = () => {
+        if(window.innerWidth <= 960) {
+            setButton(false);
+        } else {
+            setButton(true)
+        }
+    }
+    
+    // fixing button to not show up when page is refreshed in screen sizes >960
+    useEffect(() => {
+        showButton();
+    })
+
+    window.addEventListener('resize', showButton);
 
     return (
         <>
             <nav className="navbar">
                 <div className="navbar=container">
-                    <Link to="/" className="navbar-logo">
-                        MADELINE <i className="fab fa-typo3" />
+                    <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
+                        MADELINE  <i className="far fa-circle" />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -41,6 +59,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
+                    {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
                 </div>
             </nav>
 
