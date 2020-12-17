@@ -2,7 +2,7 @@
 
 .navbar {
   background: linear-gradient(90deg, rgb(0, 128, 128) 0%, rgb(152, 228, 228) 200%);
-  height: 80px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,7 @@
   /* font-size: 2rem; */
   display: flex;
   /* align-items: center; */
+  /* margin-top: 20px; */
 }
 
 .nav-menu {
@@ -39,7 +40,7 @@
   text-align: center;
   width: 60vw;
   justify-content: end;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .nav-item {
