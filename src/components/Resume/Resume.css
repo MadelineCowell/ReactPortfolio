@@ -1,0 +1,22 @@
+.wrapper {
+    padding: 16px;
+    color: teal;
+    /* outline-color: rgb(16, 73, 73); */
+}
+
+.resume-header {
+    text-align: center;
+}
+
+.resume-text {
+    text-align: center;
+}
+
+.resume-pdf {
+    max-width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-left: auto;
+margin-right: auto;
+}
