@@ -1,15 +1,14 @@
 import React from 'react'
 import '../../App.css'
-import Banner from '../Banner/Banner'
-// import Cards from '../Cards/Cards'
 
-function About() {
-    return (
+
+export default function About(){
+    return ( 
         <>
-        <Banner />
-        {/* <Cards /> */}
+                <h1 className='About'>ABOUT</h1>
+                <i>COMING SOON!
+                </i>
+       
         </>
-    )
+        )
 }
-
-export default About;
