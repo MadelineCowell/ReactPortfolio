@@ -9,13 +9,13 @@ As a recent graduate from a Full Stack Web Development course, this website show
 
 ### Website UI Gallery
 #### HOME
-![Home Tab](images/Home.PNG)
+![Home Tab](./public/images/Home.PNG)
 
 <!-- #### ABOUT
 ![About Tab](https://i.postimg.cc/HL6zZ0TP/2.png) -->
 
 #### PROJECTS
-![Projects Tab](images/Projects.PNG)
+![Projects Tab](./public/images/Projects.PNG)
 
 <!-- #### CONTACT
 ![Contact Tab](https://i.postimg.cc/Y0WxCJYJ/4.png) -->
@@ -24,11 +24,11 @@ As a recent graduate from a Full Stack Web Development course, this website show
 ![Resume Tab](./public/images/ResumeScreenshot.PNG)
 
 #### Footer
-![Footer Tab](Footer.PNG)
+![Footer Tab](./public/images/Footer.PNG)
 
 ### Contact
 
 For any questions, comments or suggestions, please contact me at madeline.cowell@colorado.edu
 
 ### View more of my work
-[Github](https://github.com/MadelineCowell)
+[Github/MadelineCowell](https://github.com/MadelineCowell)
