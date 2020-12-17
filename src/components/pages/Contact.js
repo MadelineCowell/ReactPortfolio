@@ -1,10 +1,18 @@
 import React from 'react'
 import '../../App.css'
+import Banner from '../Banner/Banner'
+// import Cards from '../Cards/Cards'
 
+function Contact() {
+    return
+    <>
+        <Banner />
+        {/* <Cards /> */}
 
-export default function Contact() {
-    return 
-    <h1 className='Contact'>
-        CONTACT
-        </h1>
+        {/* <h1 className='Contact'>
+            CONTACT
+        </h1> */}
+    </>
 }
+
+export default Contact;

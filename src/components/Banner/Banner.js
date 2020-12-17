@@ -6,7 +6,7 @@ import '../../App.css'
 function Banner() {
     return (
         <div className='banner-container'>
-            <video src='videos/video-2.mp4'autoPlay loop muted />
+            <video src='videos/CancunSunset.mp4'autoPlay loop muted />
             <h1>MADELINE COWELL</h1>
             <p>View my portfolio!</p>
             <div className="banner-btns">

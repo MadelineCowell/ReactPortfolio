@@ -3,6 +3,12 @@ import '../../App.css'
 
 
 export default function Portfolio(){
-    return 
-    <h1 className='Portfolio'>PORTFOLIO</h1>
+    return ( 
+        <>
+                <h1 className='Portfolio'>PORTFOLIO</h1>
+                <i>MORE PROJECTS COMING SOON!
+                </i>
+       
+        </>
+        )
 }

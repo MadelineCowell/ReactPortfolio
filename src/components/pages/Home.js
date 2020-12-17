@@ -8,7 +8,7 @@ function Home() {
         <>
         <Banner />
         <Cards />
-        </>
+                </>
     )
 }
 

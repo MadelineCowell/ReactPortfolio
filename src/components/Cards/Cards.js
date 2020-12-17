@@ -11,42 +11,42 @@ function Cards() {
                 <div className="wrapper">
                     <ul className="cards__items">
                         <CardItem
-                            src="\images\TacoPlaylist.PNG"
+                            src="\images\Overview.PNG"
                             text="Taco Playlist Generator"
-                            label='Project'
-                            path='/project'
+                            label='Group Project'
+                            path='/https://github.com/MadelineCowell/API-Playlist-Generator/'
                         />
                         <CardItem
-                        src='images/JS-Quiz.PNG'
-                        text='View my interactive quiz, utilizing Javascript'
-                        label='Project'
-                        path='/project'
+                        src='images/JS-QuizWhite.PNG'
+                        text='View my interactive quiz'
+                        label='Individual Project'
+                        path='/https://github.com/MadelineCowell/JS-Code-Quiz/'
                         />
                         <CardItem
-                        src='\images\PasswordGenerator.PNG'
-                        text='View my interactive quiz, utilizing Javascript'
-                        label='Project'
-                        path='/projects'
+                        src='\images\PasswordGeneratorWhite.PNG'
+                        text='View my random password generator'
+                        label='Individual Project'
+                        path='/https://github.com/MadelineCowell/JavaScript-Password-Generator/'
                         />
                     </ul>
                     <ul className="cards__items">
                         <CardItem
-                            src="\images\GitHub.png"
+                            src="\images\GitHubLogoOpaque.png"
                             text="GitHub"
                             label='Resource'
-                            path='/connect'
+                            path='https://github.com/MadelineCowell/'
                         />
                         <CardItem
-                        src='images/LinkedIn.png'
+                        src='images/LinkedInLogoSQ.png'
                         text='LinkedIn'
                         label='Resource'
-                        path='/connect'
+                        path='https://www.linkedin.com/in/madeline-cowell/'
                         />
                         <CardItem
-                        src='\images\Resume.png'
+                        src='\images\CVLogoOpaque.png'
                         text='Resume'
                         label='Resource'
-                        path='/connect'
+                        path='/resume'
                         />
                     </ul>
                 </div>
