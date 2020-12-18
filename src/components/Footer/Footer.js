@@ -15,16 +15,16 @@ function Footer() {
                 </p>
                 <div className='contact-form'>
                     <form>
-                    <input 
-                        type='name'
-                        name='name'
-                        placeholder='Your Name'
-                        className='footer-name-input'/>
-                        <input 
-                        type='email'
-                        name='email'
-                        placeholder='hello@email.com'
-                        className='footer-email-input'/>
+                        <input
+                            type='name'
+                            name='name'
+                            placeholder='Your Name'
+                            className='footer-name-input' />
+                        <input
+                            type='email'
+                            name='email'
+                            placeholder='hello@email.com'
+                            className='footer-email-input' />
                         <Button buttonStyle='btn-outline'>CONTACT</Button>
                     </form>
                 </div>
@@ -48,30 +48,31 @@ function Footer() {
                         </Link>
                         {/* <small className='website-rights'>MADELINE COWELL © 2020</small> */}
                         <div className='social-icons'>
-                            <Link className='social-icon-link facebook'
-                            to='https://www.facebook.com/madeline.cowell.3'
-                            target='_blank'
-                            aria-label='Facebook'>
-                                <i className='fab fa-facebook'></i>
-                            </Link>
-                            <Link className='social-icon-link instagram'
-                            to='https://www.instagram.com/madeline523/'
-                            target='_blank'
-                            aria-label='Instagram'>
-                                <i className='fab fa-instagram'></i>
-                            </Link>
-                            <Link className='social-icon-link linkedin'
-                            to='https://www.linkedin.com/in/madeline-cowell/'
-                            target='_blank'
-                            aria-label='LinkedIn'>
-                                <i className='fab fa-linkedin'></i>
-                            </Link>
-                            <Link className='social-icon-link github'
-                            to='https://github.com/MadelineCowell/'
-                            target='_blank'
-                            aria-label='GitHub'>
+                            <a className='social-icon-link github' href="https://github.com/MadelineCowell/" target='_blank' rel="noopener noreferrer"
+                                aria-label='GitHub'>
                                 <i className='fab fa-github'></i>
-                            </Link>
+                            </a>
+                            <a className='social-icon-link linkedin' href='https://www.linkedin.com/in/madeline-cowell/'
+                                target='_blank'
+                                rel="noopener noreferrer"
+                                aria-label='LinkedIn'>
+                                <i className='fab fa-linkedin'></i>
+                            </a>
+                            <a className='social-icon-link instagram'
+                                href='https://www.instagram.com/madeline523/'
+                                target='_blank'
+                                rel="noopener noreferrer"
+                                aria-label='Instagram'>
+                                <i className='fab fa-instagram'></i>
+                            </a>
+
+                            <a className='social-icon-link facebook'
+                                href='https://www.facebook.com/madeline.cowell.3'
+                                target='_blank'
+                                rel="noopener noreferrer"
+                                aria-label='Facebook'>
+                                <i className='fab fa-facebook'></i>
+                            </a>
                         </div>
                         <small className='website-rights'>MADELINE COWELL © 2020</small>
                     </div>
